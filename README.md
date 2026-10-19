@@ -1,36 +1,36 @@
 # LearnHub - MERN Stack Learning Management System
 
-LearnHub is a full-stack Learning Management System (LMS) built using the MERN stack (MongoDB, Express.js, React.js, Node.js)[cite: 1]. It provides a secure, role-based platform where **Students** can browse and enroll in courses, **Instructors** can create and manage course curriculums, and **Admins** can oversee platform metrics and manage user accounts[cite: 1].
+LearnHub is a full-stack Learning Management System (LMS) built using the MERN stack (MongoDB, Express.js, React.js, Node.js). It provides a secure, role-based platform where **Students** can browse and enroll in courses, **Instructors** can create and manage course curriculums, and **Admins** can oversee platform metrics and manage user accounts.
 
 ---
 
 ## Key Features
 
 ###  Student Portal
-- **Course Browsing & Search:** View available courses, prices, and detailed curriculum modules[cite: 1, 25, 26].
-- **Enrollment System:** Single-active enrollment restriction logic with instant portal access[cite: 1, 4, 9].
-- **My Dashboard:** Access enrolled course materials and video lectures anytime[cite: 1, 19].
+- **Course Browsing & Search:** View available courses, prices, and detailed curriculum modules.
+- **Enrollment System:** Single-active enrollment restriction logic with instant portal access.
+- **My Dashboard:** Access enrolled course materials and video lectures anytime.
 
 ### Instructor Studio
-- **Course Management (CRUD):** Create, edit, update, and delete courses[cite: 1, 16, 17, 18, 30, 31, 32].
-- **Lesson Builder:** Add video lectures, lecture titles, and durations to published courses[cite: 1, 15].
-- **Program Dashboard:** Track hosted courses and published video content[cite: 1, 18].
+- **Course Management (CRUD):** Create, edit, update, and delete courses.
+- **Lesson Builder:** Add video lectures, lecture titles, and durations to published courses.
+- **Program Dashboard:** Track hosted courses and published video content.
 
 ### Central Administration
-- **Analytics Dashboard:** Monitor total enrolled students, active instructors, and hosted courses[cite: 1, 20].
-- **User Management:** Manage registered accounts, modify user roles (Admin, Instructor, Student), or remove users[cite: 1, 21].
-- **Catalog Control:** Platform-wide oversight to manage or purge listed courses[cite: 1, 20].
+- **Analytics Dashboard:** Monitor total enrolled students, active instructors, and hosted courses
+- **User Management:** Manage registered accounts, modify user roles (Admin, Instructor, Student), or remove users
+- **Catalog Control:** Platform-wide oversight to manage or purge listed courses.
 
 ---
 
 ## Technologies Used
 
 ### Frontend
-- **React.js** (Vite)[cite: 1, 5]
-- **React Router DOM** (Client-side routing)[cite: 1]
-- **Axios** (HTTP client for API requests)[cite: 1, 5]
-- **Bootstrap / Custom CSS** (Responsive UI components & Toast alerts)[cite: 1, 13, 14]
-- **React Context API** (Global state management for Auth)[cite: 1, 5]
+- **React.js** (Vite)
+- **React Router DOM** (Client-side routing)
+- **Axios** (HTTP client for API requests)
+- **Bootstrap / Custom CSS** (Responsive UI components & Toast alerts)
+- **React Context API** (Global state management for Auth)
 
 ### Backend
 - **Node.js** & **Express.js** (RESTful API Server)[cite: 1, 29]
