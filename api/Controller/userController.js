@@ -88,7 +88,7 @@ export const loginUser = async (req, res) => {
     if (!user) {
       return res.status(400).json({
         success: false,
-        message: "Invalid email or password",
+        message: "User not registerd",
       });
     }
     const isMatch = await user.comparePassword(password);

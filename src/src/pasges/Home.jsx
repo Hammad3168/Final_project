@@ -144,7 +144,7 @@ const Home = () => {
             </Col>
           ) : (
             courses.map((course) => (
-              <Col key={course._id} sm={12} md={6} lg={4}>
+              <Col key={course?._id} sm={12} md={6} lg={4}>
                 <CourseCard course={course} />
               </Col>
             ))

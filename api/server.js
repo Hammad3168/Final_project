@@ -10,8 +10,9 @@ dotenv.config();
 const app = express();
 const PORT = process.env.PORT || 3000;
 // Mongoose connection
+const dbUrl = process.env.ATLASDB_URL;
 mongoose
-  .connect(process.env.MONGO_URL)
+  .connect(dbUrl)
   .then(() => console.log("Connected to DB!"))
   .catch((err) => console.log("Database Connection Error:", err));
 
@@ -27,6 +28,7 @@ app.use((req, res) => {
   res.status(404).send("404 Page Not Found");
 });
 // creating localhost server
-app.listen(PORT, () => {
-  console.log(`Connect to server ${PORT}`);
-});
+// app.listen(PORT, () => {
+//   console.log(`Connect to server ${PORT}`);
+// });
+module.exports = app;
